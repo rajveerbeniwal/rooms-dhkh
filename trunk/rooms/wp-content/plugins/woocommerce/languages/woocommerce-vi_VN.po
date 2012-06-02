@@ -6436,7 +6436,7 @@ msgstr ""
 #: classes/gateways/class-wc-paypal.php:109
 #: templates/single-product/tabs/tab-description.php:1
 #@ woocommerce
-msgid "Description"
+msgid "Mô tả"
 msgstr ""
 
 #: classes/gateways/class-wc-cod.php:61
