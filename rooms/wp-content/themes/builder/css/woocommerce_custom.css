@@ -2469,3 +2469,14 @@ p.demo_store {
 {
 	display:none;
 }
+
+.newsletter-widget .buttonSubmit
+{
+	float:right;
+}
+
+.newsletter-widget .email_input
+{
+	width:95%;
+	background-color:#ffffff;
+}

@@ -1,6 +1,6 @@
 /** ===== general color style ===== */ 
 body{
-	color : #737373;
+	color : #858585;
 }
 #main-inner-site input[type=text], 
 #main-inner-site input[type=password], 
@@ -8,23 +8,23 @@ body{
 #main-inner-site textarea, 
 #main-inner-site select{
 	background-color: #fbfbfb;
-	color: #737373;
+	color: #858585;
 }
 h1,h2,h3,h4,h5,h6{
-	color : #333333;
+	color : #4d4d4d;
 }
 a,
 a>h3{
-	color : #2999e9;
+	color : #4d4d4d;
 }
 a:hover,
 a>h3:hover{
-	color : #999999;
+	color : #2999e9;
 }
 blockquote,
 .quote_left,
 .quote_right{
-	color : #6e6e6e;
+	color : #5e5e5e;
 }
 a.button,
 .sidebarbox a.button,
@@ -32,7 +32,7 @@ input[type="submit"],
 button[type="submit"],
 table.cart td.actions a.checkout-button{
 	background: #2999e9  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAIAAAEcG3N8AAAAeElEQVQYlZWOSw4CMQxDX6PcC0GvCj1dD0ClNGExHVEYPurKebZlhVyqNAtpPeRu8MbpdK2Ath6ANpuEXKqYI91DLIY6u5fOtwoA2j3GZeNAzTmmRy/lUgHdeJeImE34W/kkL5V0KeNd5rknb+3v+Sov7/E7X9x7AIIHgXXDxpfcAAAAAElFTkSuQmCC") scroll left top repeat-x;
-	color: #FFFFFF;
+	color: #fcfcfc;
 	border: 1px solid #217aba;
 	-box-shadow: inset 0px 1px 0px #69b8f0, 0 1px 2px rgba(0, 0, 0, 0.08);
 	-webkit-box-shadow: inset 0px 1px 0px #69b8f0, 0 1px 2px rgba(0, 0, 0, 0.08);
@@ -45,7 +45,7 @@ input[type="submit"]:hover,
 button[type="submit"]:hover,
 table.cart td.actions a.checkout-button:hover{
 	background: #2999e9  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAIAAAEcG3N8AAAAcklEQVQYlZWOSw4CMQxDn1NL5SoFceDCCXMLFtMRheGjrpxnW1ZoPaNaUYviZHhjXe8JuBYBrp6E1jMcRAmFNTTYPV1uCQAuoXF5HNjBMT16aj0Bb7yLpNmEv5VP8lLRuY93meeevLW/56u8vMfvfHHvAUSYDXHMvp/DAAAAAElFTkSuQmCC") scroll left bottom repeat-x;
-	color: #FFFFFF!important;
+	color: #fcfcfc!important;
 }
 input, select, textarea{
 	border-top-color:#eeeeee;
@@ -67,8 +67,8 @@ input, select, textarea{
 	background-color: #fafafa;
 }
 .sidebarbox h3.sidebar-title{
-	background: #4f4f4f  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAoCAIAAAHOOJfMAAAAWElEQVQokbWQXQrAMAiDv8rOZ+5/Gd1Ly9a1DMZaIagJxB8kWUTcwYQr7g4cETGmzASQZJn5CqBaAUaLZrGqKpIuwrpxPbmj68m6y+TW5xfW6H/9dvt/1U/1ppCTgA4D6gAAAABJRU5ErkJggg==") scroll left top repeat-x;
-	color: #ebebeb;
+	background: #dfdede  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAoCAIAAAHOOJfMAAAAb0lEQVQokd1PUQ6FMAjryO5/QTd2jxKYHy7q1Jf4835sQoC2NAFNVUiKmQlJIYkHLpVlAZBJAshmdtvQVMXd94qIaR9cqqUAAJAjYkzu/mp6eZGa6mHPvfdTm8m/W5LWihOOHzYIZlz1kfZb/3jeCm4a0RWLgzYoAAAAAElFTkSuQmCC") scroll left top repeat-x;
+	color: #6b6b6b;
 }
 #single-page-title{
 	background-color : #f2f2f2;
@@ -84,8 +84,8 @@ input, select, textarea{
 	text-transform: capitalize;
 }
 .tagcloud a{
-	background: #2999e9;
-	border-color: #217aba;
+	background: #4d4d4d;
+	border-color: #3e3e3e;
 	color : #fafafa;
 }
 table#wp-calendar caption,
@@ -105,7 +105,7 @@ table#wp-calendar tbody td{
 .selectBox-inline{
 	background-color: #fbfbfb;
 	border: solid 1px #d5d5d5;
-	color : #737373;
+	color : #858585;
 }
 .selectBox-dropdown .selectBox-arrow{
 	border-left: solid 1px #d5d5d5;
@@ -116,7 +116,7 @@ table#wp-calendar tbody td{
 }
 div.product .woocommerce_tabs ul.tabs li a,
 .wip_tab ul.tab-lists li a{
-	color : #333333;
+	color : #4d4d4d;
 }
 div.product .woocommerce_tabs ul.tabs li.active,
 div.product .woocommerce_tabs .panel,
@@ -190,7 +190,7 @@ div.variations_button div.quantity{
 }
 #woo_checkout_tab_process ul li.viewed a,
 #woo_checkout_tab_process ul li a:hover{
-	color : #2999e9;
+	color : #4d4d4d;
 }
 .addresses header.title,
 .addresses .col-1 address,

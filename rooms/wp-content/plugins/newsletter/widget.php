@@ -26,12 +26,12 @@ class NewsletterWidget extends WP_Widget {
             $form .= '<input type="hidden" name="nr" value="widget"/>';
 
             if ($options_profile['name_status'] == 2)
-                $form .= '<p><input type="text" name="nn" value="' . $options_profile['name'] . '" onclick="if (this.defaultValue==this.value) this.value=\'\'" onblur="if (this.value==\'\') this.value=this.defaultValue"/></p>';
+                $form .= '<p><input type="text"  name="nn" value="' . $options_profile['name'] . '" onclick="if (this.defaultValue==this.value) this.value=\'\'" onblur="if (this.value==\'\') this.value=this.defaultValue"/></p>';
 
             if ($options_profile['surname_status'] == 2)
                 $form .= '<p><input type="text" name="ns" value="' . $options_profile['surname'] . '" onclick="if (this.defaultValue==this.value) this.value=\'\'" onblur="if (this.value==\'\') this.value=this.defaultValue"/></p>';
 
-            $form .= '<p><input type="text" name="ne" value="' . $options_profile['email'] . '" onclick="if (this.defaultValue==this.value) this.value=\'\'" onblur="if (this.value==\'\') this.value=this.defaultValue"/></p>';
+            $form .= '<p><input type="text" class="email_input" name="ne" value="' . $options_profile['email'] . '" onclick="if (this.defaultValue==this.value) this.value=\'\'" onblur="if (this.value==\'\') this.value=this.defaultValue"/></p>';
 
             if ($options_profile['sex_status'] == 2) {
                 $form .= '<p><select name="nx" class="newsletter-sex">';
@@ -67,7 +67,7 @@ class NewsletterWidget extends WP_Widget {
                 $form .= '<p><input type="checkbox" name="ny"/>&nbsp;' . $options_profile['privacy'] . '</p>';
             }
             
-            $form .= '<p><input type="submit" value="' . $options_profile['subscribe'] . '"/></p>';
+            $form .= '<p><input type="submit" class="buttonSubmit" value="' . $options_profile['subscribe'] . '"/></p>';
             $form .= '</form></div>';
             if (strpos($buffer, '{subscription_form}') !== false) $buffer = str_replace('{subscription_form}', $form, $buffer);
             else $buffer .= $form;
